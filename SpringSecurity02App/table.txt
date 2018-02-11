@@ -1,0 +1,16 @@
+SQL> create table  users(username varchar2(20),password varchar2(20),status number(1),
+		primary key(username));
+SQL> insert into users values('raja','raja',1);
+SQL> insert into users values('rani','rani',1);
+SQL> insert into users values('admin','admin',1);
+SQL> insert into users values('user','user',1);
+
+
+
+SQL> create table user_role(user_role_id number(10) primary key,
+		role varchar2(10),username varchar2(20) references users (username));
+SQL> insert into user_role values(1,'employee','rani');
+SQL> insert into user_role values(1,'sales','rani');
+SQL> insert into user_role values(2,'sales','rani');
+SQL> insert into user_role values(3,'admin','admin');
+SQL> insert into user_role values(4,'user','user');

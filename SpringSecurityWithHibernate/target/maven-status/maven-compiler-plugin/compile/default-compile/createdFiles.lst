@@ -1,0 +1,11 @@
+com\fcb\config\WebMvcConfig.class
+com\fcb\dao\UserDAO.class
+com\fcb\dao\UserDAOImpl.class
+com\fcb\config\ServletInitializer.class
+com\fcb\controller\MyController.class
+com\fcb\entity\UserRole.class
+com\fcb\service\MyUserDetailsService.class
+com\fcb\entity\Users.class
+com\fcb\config\RootConfig.class
+com\fcb\security\config\FCBSecurityInitailizer.class
+com\fcb\security\config\FCBSecurityConfig.class
